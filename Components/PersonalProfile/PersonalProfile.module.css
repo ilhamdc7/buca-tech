@@ -1,0 +1,175 @@
+.container{
+    width: 100%;
+    height: 553px;
+
+    margin-top: 50px;
+    display: flex;
+}
+
+.leftArrow{
+    width: 6.16%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.body{
+    width: 87.68%;
+    height: 100%;
+    overflow: hidden !important;
+}
+
+.rightArrow{
+    width: 6.16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arrowContainerPRV{
+    width: 60px;
+    height: 60px;
+    border: black solid 0.5px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.arrowContainerNXT{
+    width: 60px;
+    height: 60px;
+    border: black solid 0.5px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.slideBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: 0.3s;
+}
+
+.largeCard{
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.firstRow{
+    width: 100%;
+    height: 292px;
+
+    display: flex;
+}
+
+.content{
+    width: 51%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentTitle{
+    width: 100%;
+    height: 59px;
+    display: flex;
+    align-items: center;
+}
+
+.contentTitleSpan{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.contentText{
+    width: 90%;
+    height: 135px;
+}
+
+.contentTextSpan{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.video{
+    width: 49%;
+    height: 100%;
+
+    margin-left: 10px;
+}
+
+.secondRow{
+    width: 100%;
+    height: 221px;
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.descriptionCard{
+    width: 30.17%;
+    height: 100%;
+    position: relative;
+}
+
+.descriptionCard2{
+    width: 30.17%;
+    height: 100%;
+    margin-left: 4.7%;
+    position: relative;
+}
+
+.descriptionLayer{
+    width: 100%;
+    height: 60px;
+
+    position: absolute;
+    margin-top: 153px;
+}
+
+.leftLayer{
+    width: 90%;
+    height: 100%;
+    margin-left: 2.5%;
+}
+
+.leftLayerContent{
+    width: 100%;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.leftLayerButton{
+    width: 43%;
+    height: 24px;
+    background-color: black;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}

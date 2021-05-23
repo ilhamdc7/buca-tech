@@ -1,0 +1,101 @@
+.container{
+    width: 100%;
+    height: 562px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    padding: 0;
+}
+
+.firstRow{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.firstRowSpan{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 6%;
+}
+
+.secondRow{
+    width: 100%;
+    height: 452px;
+
+    margin-top: 40px;
+    display: flex;
+}
+
+.video{
+    width: 51.11%;
+    height: 99%;
+    margin-left: 6%;
+}
+
+.rightSide{
+    width: 36%;
+    height: 100%;
+
+    margin-left: 2.38%;
+}
+
+.content{
+    width: 100%;
+    height: 142px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentTitle{
+    width: 100%;
+    height: 41px;
+
+    display: flex;
+    align-items: center;
+}
+
+.contentTitleSpan{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40.85px;
+}
+
+.contentText{
+    width: 100%;
+    height: 91px;
+
+    margin-top: 7px;
+}
+
+.contentTextSpan{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.images{
+    width: 100%;
+    height: 230px;
+
+    display: flex;
+    margin-top: 75px;
+}
+
+.firstImage{
+    width: 47.94%;
+    height: 229px;
+
+}
+
+.secondImage{
+    width: 47.94%;
+    height: 229px;
+
+    margin-left: 4%;
+}

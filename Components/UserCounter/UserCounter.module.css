@@ -1,0 +1,119 @@
+.container{
+    width: 100%;
+    height: 353px;
+    position: relative;
+    margin-top: 48px;
+}
+
+.content{
+    width: 51.11%;
+    height: 100%;
+    position: absolute;
+    margin-left: 5.7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentTitle{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.contentTitleSpan{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+
+.contentText{
+    width: 100%;
+    height: 162px;
+    margin-top: -35px;
+}
+
+.contentTextSpan{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.counterContainer{
+    width: 26.94%;
+    height: 100%;
+    position: absolute;
+    margin-left: 64.86%;
+}
+
+.firstRow{
+    width: 100%;
+    height: 138px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.iconContainer{
+    width: 26.04%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconContainer2{
+    width: 26.04%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 47.92%;
+}
+
+.icon{
+    width: 100%;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconInteger{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconIntegerSpan{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    color: white;
+}
+
+
+
+.iconText{
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconTextSpan{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.secondRow{
+    width: 100%;
+    height: 138px;
+    position: initial;
+    display: flex;
+    margin-top: 50px;
+}
